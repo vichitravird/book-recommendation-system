@@ -10,10 +10,10 @@ import numpy as np
 
 
 st.header('Book Recommender System Using Machine Learning')
-model = pickle.load(open('artifacts\\model.pkl','rb'))
-book_names = pickle.load(open('artifacts\\mn.pkl','rb'))
-final_rating = pickle.load(open('artifacts\\minal_rating.pkl','rb'))
-book_pivot = pickle.load(open('artifacts\\mp.pkl','rb'))
+model = pickle.load(open('artifacts/model.pkl','rb'))
+book_names = pickle.load(open('artifacts/mn.pkl','rb'))
+final_rating = pickle.load(open('artifacts/minal_rating.pkl','rb'))
+book_pivot = pickle.load(open('artifacts/mp.pkl','rb'))
 
 
 def fetch_poster(suggestion):
